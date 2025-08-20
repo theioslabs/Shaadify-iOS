@@ -41,10 +41,32 @@ Shaadify-iOS
 
 ## 🚀 Getting Started
 
+## 🔹 Xcode Version
+
+- **Latest stable (Aug 2025):** Xcode 15.x (ships with Swift 5.9/5.10).  
+- Supports iOS 17/18 SDKs, modern SwiftUI, and Swift Concurrency.  
+- Apple generally drops support for very old macOS in each major Xcode release.  
+
+**👉 Recommendation:**  
+- **Minimum Xcode:** 15.0 (first release with Swift 5.9, async/await stable, SwiftUI improvements).  
+- **Recommended Xcode:** Latest stable (15.x or newer) → ensures compatibility with iOS 18 SDK.  
+
+---
+
+## 🔹 macOS Version
+
+- Xcode requires fairly recent macOS versions.  
+- Xcode 15.x requires **macOS Ventura (13.0)** or later.  
+- macOS **Sonoma (14)** and **Sequoia (15)** are already common in 2025.  
+
+**👉 Recommendation:**  
+- **Minimum macOS:** 13.0 (Ventura)  
+- **Recommended macOS:** 14.0 (Sonoma) or 15.0 (Sequoia) → better stability and long-term support.  
+
 ### Prerequisites
 - macOS (latest recommended)  
 - [Xcode 15+](https://developer.apple.com/xcode/)  
-- Swift 5.9+  
+- Swift 5.9+
 
 ### Installation
 1. Clone the repository  
