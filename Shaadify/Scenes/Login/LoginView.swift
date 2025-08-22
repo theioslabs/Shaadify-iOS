@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  MatrimonialApp
+//  ShaadifyApp
 //
 //  Created by Sushobhit Jain on 19/08/25.
 //
@@ -18,15 +18,26 @@ struct LoginView: View {
         VStack(spacing: 16) {
             TextField("Email", text: $viewModel.email)
                 .keyboardType(.emailAddress)
-                .autocapitalization(.none)
                 .padding()
-                .background(Color(white: 0.9))
-                .cornerRadius(5)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 10) // Customize corner radius
+                        .stroke(
+                            Color.black.opacity(0.2),
+                            lineWidth: 2
+                        ) // Set border color and width
+                )
+                .autocapitalization(.none)
 
             SecureField("Password", text: $viewModel.password)
                 .padding()
-                .background(Color(white: 0.9))
-                .cornerRadius(5)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 10) // Customize corner radius
+                        .stroke(
+                            Color.black.opacity(0.2),
+                            lineWidth: 2
+                        ) // Set border color and width
+                )
+                .autocapitalization(.none)
 
             if let error = viewModel.loginError {
                 Text(error)
@@ -48,9 +59,11 @@ struct LoginView: View {
             }
             .disabled(!viewModel.isLoginEnabled || viewModel.isLoading)
             .padding()
-            .background(viewModel.isLoginEnabled ? Color.blue : Color.gray)
+            .background(
+                viewModel.isLoginEnabled ? Color.black : Color.gray.opacity(0.4)
+            )
             .foregroundColor(.white)
-            .cornerRadius(5)
+            .cornerRadius(16)
 
             Spacer()
         }

@@ -1,6 +1,6 @@
 //
 //  LoginModel.swift
-//  Matrimonial
+//  Shaadify
 //
 //  Created by Sushobhit Jain on 20/08/25.
 //

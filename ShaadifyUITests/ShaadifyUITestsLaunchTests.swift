@@ -1,13 +1,13 @@
 //
-//  MatrimonialUITestsLaunchTests.swift
-//  MatrimonialUITests
+//  ShaadifyUITestsLaunchTests.swift
+//  ShaadifyUITests
 //
 //  Created by Sushobhit Jain on 20/08/25.
 //
 
 import XCTest
 
-final class MatrimonialUITestsLaunchTests: XCTestCase {
+final class ShaadifyUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
