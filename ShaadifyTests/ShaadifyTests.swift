@@ -1,14 +1,14 @@
 //
-//  MatrimonialTests.swift
-//  MatrimonialTests
+//  ShaadifyTests.swift
+//  ShaadifyTests
 //
 //  Created by Sushobhit Jain on 20/08/25.
 //
 
 import XCTest
-@testable import Matrimonial
+@testable import Shaadify
 
-final class MatrimonialTests: XCTestCase {
+final class ShaadifyTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
